@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-astrology"
+version = "0.1.0"
+description = ""
+authors = ["aboutmydreams <aboutmydreams@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.8.4"
+google-cloud-aiplatform = "^1.50.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
